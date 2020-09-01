@@ -1,78 +1,77 @@
  {
-    "data": {
-    "Projects": [
-        {
-            "id": 0,
-            "Project": "API Request",
-            "description": "A website that uses public APIs to build an app for a fictional company called Awesome Startup, a distributed company with remote employees working all over the world. They need a smart way for employees to share contact information with each other.",
-            "technologies": [
-                "HTML","Javascript","API","CSS"
-            ],
-            "live_link": "https://elijah798.github.io/Public-API-Requests/",
-            "github_link": "https://github.com/elijah798/Public-API-Requests",
-            "imagesOne": "/static/images/API_request/API_Request_Card1.png",
-            "imagesTwo": "/static/images/API_request/API_Request_Card2.png",
-            "imagesThree": "/static/images/API_request/API_Requests_main_page.png"
+     "data": {
+         "Projects": [{
+                 "id": 0,
+                 "ProjectName": "API Request",
+                 "description": "A website that uses public APIs to build an app for a fictional company called Awesome Startup, a distributed company with remote employees working all over the world. They need a smart way for employees to share contact information with each other.",
+                 "technologies": [
+                     "HTML", "Javascript", "API", "CSS"
+                 ],
+                 "live_link": "https://elijah798.github.io/Public-API-Requests/",
+                 "github_link": "https://github.com/elijah798/Public-API-Requests",
+                 "imagesOne": "/static/images/API_request/API_Request_Card1.png",
+                 "imagesTwo": "/static/images/API_request/API_Request_Card2.png",
+                 "imagesThree": "/static/images/API_request/API_Requests_main_page.png"
 
-        },
-        {
-            "id": 1,
-            "Project": "Interactive Form",
-            "description": "a project using javaScript to enhance an interactive registration form for a fictional conference called 'FullStack Conf.'",
-            "technologies": [
-                "Javascript","CSS","HTML"
-            ],
-            "live_link": "https://elijah798.github.io/Interactive-Form-Project/",
-            "github_link": "https://github.com/elijah798/Interactive-Form-Project",
-            "imagesOne": "/static/images/Interactive_form/Interactive1.png",
-            "imagesTwo": "/static/images/Interactive_form/Interactive2.png",
-            "imagesThree": "/static/images/Interactive_form/Interactive3.png"
+             },
+             {
+                 "id": 1,
+                 "ProjectName": "Interactive Form",
+                 "description": "a project using javaScript to enhance an interactive registration form for a fictional conference called 'FullStack Conf.'",
+                 "technologies": [
+                     "Javascript", "CSS", "HTML"
+                 ],
+                 "live_link": "https://elijah798.github.io/Interactive-Form-Project/",
+                 "github_link": "https://github.com/elijah798/Interactive-Form-Project",
+                 "imagesOne": "/static/images/Interactive_form/Interactive1.png",
+                 "imagesTwo": "/static/images/Interactive_form/Interactive2.png",
+                 "imagesThree": "/static/images/Interactive_form/Interactive3.png"
 
-        },
-        {
-            "id": 2,
-            "Project": "Pagination Website",
-            "description": "Project that uses Pagination demonstrating progressive Enhancement.",
-            "technologies": [
-                "Javascript","HTML","CSS"
-            ],
-            "live_link": "https://elijah798.github.io/Pagination-Project/",
-            "github_link": "https://github.com/elijah798/Pagination-Project",
-            "imagesOne": "/static/images/Pagination-Project/pagination1.png",
-            "imagesTwo": "/static/images/Pagination-Project/pagination2.png",
-            "imagesThree": "/static/images/Pagination-Project/pagination3.png"
+             },
+             {
+                 "id": 2,
+                 "ProjectName": "Pagination Website",
+                 "description": "Project that uses Pagination demonstrating progressive Enhancement.",
+                 "technologies": [
+                     "Javascript", "HTML", "CSS"
+                 ],
+                 "live_link": "https://elijah798.github.io/Pagination-Project/",
+                 "github_link": "https://github.com/elijah798/Pagination-Project",
+                 "imagesOne": "/static/images/Pagination-Project/pagination1.png",
+                 "imagesTwo": "/static/images/Pagination-Project/pagination2.png",
+                 "imagesThree": "/static/images/Pagination-Project/pagination3.png"
 
-        },
-        {
-            "id": 3,
-            "Project": "Phrase Hunter",
-            "description": "An object Oriented javascript game where you guess the phrase with each letter.",
-            "technologies": [
-                "HTML","CSS","Javascript", "Object Oriented Programming"
-            ],
-            "live_link": "https://elijah798.github.io/OOP_Game/",
-            "github_link": "https://github.com/elijah798/OOP_Game",
-            "imagesOne": "/static/images/Phrase_hunter/PhraseHunterTitle.png",
-            "imagesTwo": "/static/images/Phrase_hunter/PhraseHunterProgress.png",
-            "imagesThree": "/static/images/Phrase_hunter/PhraseHunterWin.png"
+             },
+             {
+                 "id": 3,
+                 "ProjectName": "Phrase Hunter",
+                 "description": "An object Oriented javascript game where you guess the phrase with each letter.",
+                 "technologies": [
+                     "HTML", "CSS", "Javascript", "Object Oriented Programming"
+                 ],
+                 "live_link": "https://elijah798.github.io/OOP_Game/",
+                 "github_link": "https://github.com/elijah798/OOP_Game",
+                 "imagesOne": "/static/images/Phrase_hunter/PhraseHunterTitle.png",
+                 "imagesTwo": "/static/images/Phrase_hunter/PhraseHunterProgress.png",
+                 "imagesThree": "/static/images/Phrase_hunter/PhraseHunterWin.png"
 
-        },
-        {
-            "id": 4,
-            "Project": "Random Quote Generator",
-            "description": "Website that displays a random quote from an array of quotes",
-            "technologies": [
-                "HTML","CSS","Javascript"
-            ],
-            "live_link": "https://elijah798.github.io/Random-Quote-GeneratorV2/",
-            "github_link": "https://github.com/elijah798/Random-Quote-GeneratorV2",
-            "imagesOne": "/static/images/Random_Quote_Generator/Quote.png",
-            "imagesTwo": "/static/images/Random_Quote_Generator/Quote2.png",
-            "imagesThree": "/static/images/Random_Quote_Generator/Quote3.png"
+             },
+             {
+                 "id": 4,
+                 "ProjectName": "Random Quote Generator",
+                 "description": "Website that displays a random quote from an array of quotes",
+                 "technologies": [
+                     "HTML", "CSS", "Javascript"
+                 ],
+                 "live_link": "https://elijah798.github.io/Random-Quote-GeneratorV2/",
+                 "github_link": "https://github.com/elijah798/Random-Quote-GeneratorV2",
+                 "imagesOne": "/static/images/Random_Quote_Generator/Quote.png",
+                 "imagesTwo": "/static/images/Random_Quote_Generator/Quote2.png",
+                 "imagesThree": "/static/images/Random_Quote_Generator/Quote3.png"
 
-        }
+             }
 
-    ]
-    }
-    
-}
+         ]
+     }
+
+ }
