@@ -1,7 +1,7 @@
 const express = require('express')
 const app = express()
 const port = 3000
-const { data } = require('./data/projectData.json');
+const { data } = require('./data/Data.json');
 const { Projects } = data;
 const projectLength = Projects.length;
 
@@ -24,15 +24,12 @@ app.get('/about', (req, res) => {
 app.get('/project/:id', (req, res) => {
         if (req.params.id <= projectLength - 1) {
             res.render('project', {
-                projectName: Projects[req.params.id].ProjectName,
+                project_name: Projects[req.params.id].project_name,
                 description: Projects[req.params.id].description,
                 liveLink: Projects[req.params.id].live_link,
                 githubLink: Projects[req.params.id].github_link,
-                imageURL: Projects[req.params.id].image_urls,
-                tech: Projects[req.params.id].technologies,
-                imageOne: Projects[req.params.id].imagesOne,
-                imageTwo: Projects[req.params.id].imagesTwo,
-                imageThree: Projects[req.params.id].imagesThree,
+                image_urls: Projects[req.params.id].image_urls,
+                tech: Projects[req.params.id].technologies
             });
         } else {
             //error route handling

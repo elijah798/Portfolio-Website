@@ -9,9 +9,8 @@
                  ],
                  "live_link": "https://elijah798.github.io/Public-API-Requests/",
                  "github_link": "https://github.com/elijah798/Public-API-Requests",
-                 "imagesOne": "/static/images/API_request/API_Request_Card1.png",
-                 "imagesTwo": "/static/images/API_request/API_Request_Card2.png",
-                 "imagesThree": "/static/images/API_request/API_Requests_main_page.png"
+                 "image_urls": ["/static/images/API_request/API_Request_Card1.png", "/static/images/API_request/API_Request_Card2.png", "/static/images/API_request/API_Requests_main_page.png"]
+
 
              },
              {
@@ -23,9 +22,8 @@
                  ],
                  "live_link": "https://elijah798.github.io/Interactive-Form-Project/",
                  "github_link": "https://github.com/elijah798/Interactive-Form-Project",
-                 "imagesOne": "/static/images/Interactive_form/Interactive1.png",
-                 "imagesTwo": "/static/images/Interactive_form/Interactive2.png",
-                 "imagesThree": "/static/images/Interactive_form/Interactive3.png"
+                 "image_urls": ["/static/images/Interactive_form/Interactive1.png", "/static/images/Interactive_form/Interactive2.png", "/static/images/Interactive_form/Interactive3.png"]
+
 
              },
              {
@@ -37,9 +35,8 @@
                  ],
                  "live_link": "https://elijah798.github.io/Pagination-Project/",
                  "github_link": "https://github.com/elijah798/Pagination-Project",
-                 "imagesOne": "/static/images/Pagination-Project/pagination1.png",
-                 "imagesTwo": "/static/images/Pagination-Project/pagination2.png",
-                 "imagesThree": "/static/images/Pagination-Project/pagination3.png"
+                 "image_urls": ["/static/images/Pagination-Project/pagination1.png", "/static/images/Pagination-Project/pagination2.png", "/static/images/Pagination-Project/pagination3.png"]
+
 
              },
              {
@@ -51,9 +48,8 @@
                  ],
                  "live_link": "https://elijah798.github.io/OOP_Game/",
                  "github_link": "https://github.com/elijah798/OOP_Game",
-                 "imagesOne": "/static/images/Phrase_hunter/PhraseHunterTitle.png",
-                 "imagesTwo": "/static/images/Phrase_hunter/PhraseHunterProgress.png",
-                 "imagesThree": "/static/images/Phrase_hunter/PhraseHunterWin.png"
+                 "image_url": ["/static/images/Phrase_hunter/PhraseHunterTitle.png", "/static/images/Phrase_hunter/PhraseHunterProgress.png", "/static/images/Phrase_hunter/PhraseHunterWin.png"]
+
 
              },
              {
@@ -65,9 +61,7 @@
                  ],
                  "live_link": "https://elijah798.github.io/Random-Quote-GeneratorV2/",
                  "github_link": "https://github.com/elijah798/Random-Quote-GeneratorV2",
-                 "imagesOne": "/static/images/Random_Quote_Generator/Quote.png",
-                 "imagesTwo": "/static/images/Random_Quote_Generator/Quote2.png",
-                 "imagesThree": "/static/images/Random_Quote_Generator/Quote3.png"
+                 "image_urls": ["/static/images/Random_Quote_Generator/Quote.png", "/static/images/Random_Quote_Generator/Quote2.png", "/static/images/Random_Quote_Generator/Quote3.png"]
 
              }
 
