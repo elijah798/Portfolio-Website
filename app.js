@@ -42,7 +42,7 @@ app.get('/project/:id', (req, res) => {
     //error route handling
 app.use((req, res, next) => {
         res.status(404).send({
-            status: 404,
+            status: 404, 
             error: 'Not Found'
 
         })
