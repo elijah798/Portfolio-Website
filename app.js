@@ -1,7 +1,7 @@
 const express = require('express')
 const app = express()
 const port = 3000
-const { data } = require('./data/data.json');
+const { data } = require('./data/Data.json');
 const { Projects } = data;
 const projectLength = Projects.length;
 
