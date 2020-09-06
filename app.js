@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-const port = 3000
+const port = 8080
 const { data } = require('./data/Data.json');
 const { Projects } = data;
 const projectLength = Projects.length;
@@ -12,9 +12,8 @@ app.use('/static', express.static('public'))
 
 //sets route for index page
 app.get('/', (req, res) => {
-        res.render('index', {
-            Projectss: Projects,
-        });
+        res.render('index',{Projects}
+        );
     })
     //route to send client to about page
 app.get('/about', (req, res) => {
@@ -36,17 +35,18 @@ app.get('/project/:id', (req, res) => {
             res.status(404).send({
                 status: 404,
                 error: 'Not Found'
-
+                
             })
         }
     })
     //error route handling
 app.use((req, res, next) => {
         res.status(404).send({
-            status: 404,
+            status: 404, 
             error: 'Not Found'
 
         })
+        console.log("It seems like the server couldnt find the page you were looking for");
     })
     //start express 
 app.listen(port, () => {
